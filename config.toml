@@ -43,7 +43,7 @@ link = "plugins/google-map/gmap.js"
 
 # main menu
 [[menu.main]]
-name = "O TVRTCI TEST"
+name = "O TVRTCI"
 URL = "about"
 weight = 1
 
