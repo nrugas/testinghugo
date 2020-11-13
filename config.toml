@@ -48,7 +48,7 @@ URL = "about"
 weight = 1
 
 [[menu.main]]
-name = "PAZIGRADD"
+name = "PAZIGRAD"
 URL = "project"
 weight = 2
 
