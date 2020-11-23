@@ -78,7 +78,7 @@ hasChildren = true
   URL = "pricing"
   
 [[menu.main]]
-name = "KONTAKT"
+name = "KONTAKTI"
 URL = "contact"
 weight = 6
 
