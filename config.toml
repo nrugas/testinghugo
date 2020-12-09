@@ -97,7 +97,7 @@ weight = 7
 
 # footer menu
 [[menu.footer]]
-name = "O nama"
+name = "O tvrtci"
 URL = "about"
 weight = 1
 

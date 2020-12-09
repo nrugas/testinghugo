@@ -6,10 +6,6 @@
     <description>Recent content in GRADSKO OKO on Airspace | Creative Agency Hugo Template</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>hr-hr</language>
-    <copyright>Copyright &amp;copy; 2019 [RI-ING NET](https://www.ri-ing.net) All Rights Reserved</copyright>
-    
-	<atom:link href="/fr/service/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>Copyright &amp;copy; 2019 [RI-ING NET](https://www.ri-ing.net) All Rights Reserved</copyright><atom:link href="/fr/service/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
