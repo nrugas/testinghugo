@@ -1,9 +1,9 @@
 ############################### Banner ##############################
 banner:
   enable : true
-  bg_image : "images/1_M.jpg"
-  title : "PAZIGRAD <br/>  SMART CITY"
-  content : "Slogan koji ubija..."
+  bg_image : "images/eu-fondovi1.png"
+  #title : "PAZIGRAD <br/>  SMART CITY"
+ # content : "Slogan koji ubija......."
   #button:
   #  enable : true
   #  label : "Discover Our Project"

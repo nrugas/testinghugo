@@ -43,11 +43,6 @@ link = "plugins/google-map/gmap.js"
 
 # main menu
 [[menu.main]]
-name = "O TVRTCI"
-URL = "about"
-weight = 1
-
-[[menu.main]]
 name = "PAZIGRAD"
 URL = "project"
 weight = 2
@@ -58,29 +53,46 @@ URL = "service"
 weight = 3
 
 [[menu.main]]
-name = "BLOG"
+name = "REFERENCE"
 URL = "blog"
 weight = 4
 
 [[menu.main]]
+name = "O TVRTCI"
+URL = "about"
 weight = 5
-name = "STRANICE"
-hasChildren = true
 
-  [[menu.main]]
-  parent = "STRANICE"
-  name = "FAQ"
-  URL = "faq"
+[[menu.main]]
+weight = 6
+name = "TIM"
+URL = "team"
 
-  [[menu.main]]
-  parent = "STRANICE"
-  name = "Pricing"
-  URL = "pricing"
+
+
+
+#hasChildren = true
+
+
+
+#[[menu.main]]
+#weight = 5
+#name = "STRANICE"
+#hasChildren = true
+
+#  [[menu.main]]
+#  parent = "STRANICE"
+#  name = "FAQ"
+#  URL = "faq"
+
+#  [[menu.main]]
+#  parent = "STRANICE"
+#  name = "Pricing"
+#  URL = "pricing"
   
 [[menu.main]]
 name = "KONTAKTI"
 URL = "contact"
-weight = 6
+weight = 7
 
 
 # footer menu

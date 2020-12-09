@@ -333,20 +333,6 @@
   </url>
   
   <url>
-    <loc>/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/about/"
-                />
-  </url>
-  
-  <url>
     <loc>/author/</loc>
     <xhtml:link
                 rel="alternate"
@@ -399,6 +385,20 @@
                 rel="alternate"
                 hreflang="en"
                 href="/author/mark-dinn/"
+                />
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/about/"
                 />
   </url>
   
