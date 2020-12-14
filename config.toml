@@ -1,8 +1,7 @@
 ################################# Default configuration ###################
 baseURL = "/"
 title = "Airspace | Creative Agency Hugo Template"
-theme = "airspace-hugo-master"
-themesDir = "../.."
+theme = "airspace-hugo"
 # post pagination
 paginate = "4"
 # post excerpt
@@ -12,89 +11,144 @@ disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = []
 
-################################# Outputs #################################
-# hugo outputs
-[outputs]
-home = ["HTML"]
-
-# render unsafe html
-[markup.goldmark.renderer]
-unsafe = true
-
 
 #################################### Plugins ##############################
 
 # CSS Plugins
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
-attributes = "media='screen'"
-
 [[params.plugins.css]]
 link = "plugins/Ionicons/css/ionicons.min.css"
-attributes = ""
-
 [[params.plugins.css]]
-link = "plugins/magnific-popup/magnific-popup.min.css"
-attributes = ""
-
+link = "plugins/magnific-popup/magnific-popup.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
-attributes = ""
 
 # JS Plugins
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
-attributes = ""
-
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
-attributes = ""
-
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
-attributes = ""
-
 [[params.plugins.js]]
-link = "plugins/magnific-popup/magnific-popup.min.js"
-attributes = ""
-
+link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 [[params.plugins.js]]
 link = "plugins/shuffle/shuffle.min.js"
-attributes = ""
-
 [[params.plugins.js]]
 link = "plugins/google-map/gmap.js"
-attributes = ""
+
+  
+############################## navigation ###############################
+
+# main menu
+[[menu.main]]
+name = "PAZIGRAD"
+URL = "project"
+weight = 2
+
+[[menu.main]]
+name = "GRADSKO OKO"
+URL = "service"
+weight = 3
+
+[[menu.main]]
+name = "REFERENCE"
+URL = "blog"
+weight = 4
+
+[[menu.main]]
+name = "O TVRTCI"
+URL = "about"
+weight = 5
+
+[[menu.main]]
+weight = 6
+name = "TIM"
+URL = "team"
+
+#hasChildren = true
 
 
-############################### widgets #################################
 
-[params.widgets]
-sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
+#[[menu.main]]
+#weight = 5
+#name = "STRANICE"
+#hasChildren = true
+
+#  [[menu.main]]
+#  parent = "STRANICE"
+#  name = "FAQ"
+#  URL = "faq"
+
+#  [[menu.main]]
+#  parent = "STRANICE"
+#  name = "Pricing"
+#  URL = "pricing"
+  
+[[menu.main]]
+name = "KONTAKTI"
+URL = "contact"
+weight = 7
+
+
+
+
+# footer menu
+[[menu.footer]]
+name = "O tvrtci"
+URL = "about"
+weight = 1
+
+[[menu.footer]]
+name = "Pazigrad"
+URL = "project"
+weight = 2
+
+[[menu.footer]]
+name = "Gradsko Oko"
+URL = "service"
+weight = 3
+
+##[[menu.footer]]
+##name = "Pricing"
+##URL = "pricing"
+##weight = 4
+
+[[menu.footer]]
+name = "FAQ"
+URL = "faq"
+weight = 5
+
+[[menu.footer]]
+name = "Kontakt"
+URL = "contact"
+weight = 6
 
 
 #################### default parameters ################################
 [params]
-logo = "images/riingnet/eu4.png"
-logo_width = "700px"
+logo = "images/Logo_H_61.png"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
 # Contact Information
-mobile = "0124857985320"
+mobile = "+385912621334"
 email = "info@ri-ing.net"
-location = "J. Završnika 7, 51000 Rijeka"
+location = "J. Zavrsnika 7, 51000 Rijeka, CROATIA"
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 # Google Analitycs
-google_analitycs_id = "" # Your ID# search
-# multi-author support (if set to true, you must use an Array in the author field)
-multi_author = false
+google_analitycs_id = "Your ID"
 
 # Preloader
 [params.preloader]
 enable = true
 preloader = "" # use .png , .svg or .gif format
+
+# search
+[params.search]
+enable = true
 
 # Navigation get start button
 [params.nav_button]
@@ -106,15 +160,11 @@ link = "contact"
 [params.gmap]
 enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
+map_latitude = "45.3346988"
+map_longitude = "14.4324439"
 map_marker = "images/marker.png"
 
-# cookies
-[params.cookies]
-enable = true
-expire_days = 2
-
+  
 ############################# social site ########################
 [[params.social]]
 icon = "ion-social-googleplus-outline" #ionicon pack v2 : https://ionicons.com/v2/
@@ -138,196 +188,25 @@ link = "#"
 
 [[params.social]]
 icon = "ion-social-facebook-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
+link = "https://www.facebook.com/RIINGNET/"
 
 
 ################################ English Language ########################
 [Languages.en]
-languageName = "Hr"
+languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
-weight = 1
+weight = 2
+home = "Home"
 # copyright
-copyright = "Copyright &copy; 2020 [RI-ING NET](https://www.ri-ing.net) Sva prava pridržana."
-
-
-######################### english navigation #############################
-# main menu
-[[Languages.en.menu.main]]
-name = "HOME"
-URL = "/"
-weight = 1
-
-
-
-[[Languages.en.menu.main]]
-name = "PAZIGRAD"
-URL = "project"
-weight = 2
-
-[[Languages.en.menu.main]]
-name = "GRADSKO OKO"
-URL = "project"
-weight = 3
-
-[[Languages.en.menu.main]]
-name = "REFERENCE"
-URL = "blog"
-weight = 4
-
-#[[Languages.en.menu.main]]
-#weight = 5
-#name = "STRANICE"
-#hasChildren = true
-
-#  [[Languages.en.menu.main]]
-#  parent = "STRANICE"
-#  name = "FAQ"
-#  URL = "faq"
-
-#  [[Languages.en.menu.main]]
-#  parent = "STRANICE"
-#  name = "Pricing"
-#  URL = "pricing"
-
-#  [[Languages.en.menu.main]]
-#  parent = "STRANICE"
-#  name = "Service"
-#  URL = "service"
-
-[[Languages.en.menu.main]]
-name = "O TVRTCI"
-URL = "about"
-weight = 6
-
-[[Languages.en.menu.main]]
-name = "TIM"
-URL = "contact"
-weight = 7
-  
-[[Languages.en.menu.main]]
-name = "KONTAKTI"
-URL = "contact"
-weight = 8
-
-
-
-# footer menu
-[[Languages.en.menu.footer]]
-name = "About"
-URL = "about"
-weight = 1
-
-[[Languages.en.menu.footer]]
-name = "Project"
-URL = "project"
-weight = 2
-
-[[Languages.en.menu.footer]]
-name = "Service"
-URL = "service"
-weight = 3
-
-[[Languages.en.menu.footer]]
-name = "Pricing"
-URL = "pricing"
-weight = 4
-
-[[Languages.en.menu.footer]]
-name = "FAQ"
-URL = "faq"
-weight = 5
-
-[[Languages.en.menu.footer]]
-name = "Contact"
-URL = "contact"
-weight = 6
+copyright = "Copyright &copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved"
 
 ################################ France Language ########################
 [Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
+languageName = "Hr"
+languageCode = "hr-hr"
 contentDir = "content/french"
-weight = 2
+weight = 1
+home = "Početna"
 # copyright
-copyright = "Copyright &copy; 2020 [RI-ING NET](https://themefisher.com) All Rights Reserved"
-
-
-######################### france navigation #############################
-# main menu
-[[Languages.fr.menu.main]]
-name = "Accueil"
-URL = "/"
-weight = 1
-
-[[Languages.fr.menu.main]]
-name = "À propos"
-URL = "about"
-weight = 2
-
-[[Languages.fr.menu.main]]
-name = "Projet"
-URL = "project"
-weight = 3
-
-[[Languages.fr.menu.main]]
-name = "Blog"
-URL = "blog"
-weight = 4
-
-[[Languages.fr.menu.main]]
-weight = 5
-name = "Pages"
-hasChildren = true
-
-  [[Languages.fr.menu.main]]
-  parent = "Pages"
-  name = "FAQ"
-  URL = "faq"
-
-  [[Languages.fr.menu.main]]
-  parent = "Pages"
-  name = "Tarification"
-  URL = "pricing"
-
-  [[Languages.fr.menu.main]]
-  parent = "Pages"
-  name = "Un service"
-  URL = "service"
-  
-[[Languages.fr.menu.main]]
-name = "Contact"
-URL = "contact"
-weight = 6
-
-
-# footer menu
-[[Languages.fr.menu.footer]]
-name = "About"
-URL = "about"
-weight = 1
-
-[[Languages.fr.menu.footer]]
-name = "Project"
-URL = "project"
-weight = 2
-
-[[Languages.fr.menu.footer]]
-name = "Service"
-URL = "service"
-weight = 3
-
-[[Languages.fr.menu.footer]]
-name = "Pricing"
-URL = "pricing"
-weight = 4
-
-[[Languages.fr.menu.footer]]
-name = "FAQ"
-URL = "faq"
-weight = 5
-
-[[Languages.fr.menu.footer]]
-name = "Contact"
-URL = "contact"
-weight = 6
+copyright = "Copyright &copy; 2019 [RI-ING NET](https://www.ri-ing.net) All Rights Reserved"

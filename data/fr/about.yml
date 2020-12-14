@@ -1,8 +1,8 @@
 ################################## About #####################################
 about:
   enable : true
-  image : "images/company/about.jpg"
-  title : "We strive to be the best and <br> make awesome work."
+  image : "images/company/Referentna_lista_rujan_2015.jpg"
+  title : "Referentna lista"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius enim, accusantium repellat ex autem numquam
           iure officiis facere vitae itaque.
           
@@ -11,41 +11,18 @@ about:
           velit nulla culpa modi quis iste tempora non, suscipit repellendus labore voluptatem dicta amet? Lorem ipsum
           dolor sit amet, consectetur adipisicing elit. Provident, neque!"
 
-  button:
-    enable : true
-    label : "Download Company Profile"
-    link : "#"
+  #button:
+  #  enable : true
+  #  label : "Download Company Profile"
+  #  link : "#"
 
   funfacts:
     # funfacts loop
     - icon : "ion-ios-flask-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Completed Projects"
-      count : "349"
+      name : "JEDINICE LOKALNE SAMOPURAVE I VEZANA DRUŠTVA"
+      count : "58"
       
-    # funfacts loop
-    - icon : "ion-ios-flame-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Lines Of Code"
-      count : "35000"
-      
-    # funfacts loop
-    - icon : "ion-ios-pint-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Satisfied Customer"
-      count : "70"
-      
-    # funfacts loop
-    - icon : "ion-ios-wineglass-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Awards Winner"
-      count : "10"
-      
-    # funfacts loop
-    - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Satisfied Customer"
-      count : "75"
-      
-    # funfacts loop
-    - icon : "ion-ios-body-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Awards Winner"
-      count : "20"
+    
       
 ################################ feature #####################################
 features:

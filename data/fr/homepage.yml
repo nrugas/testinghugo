@@ -1,33 +1,32 @@
 ############################### Banner ##############################
 banner:
   enable : true
-  bg_image : "images/slider-bg.jpg"
-  bg_overlay : true
-  title : "A Digital Marketing <br/> & Design Agency"
-  content : "We love the Web and the work we do.We work closely with our clients to deliver  the best possible solutions for their needs"
-  button:
-    enable : true
-    label : "Discover Our Project"
-    link : "project"
+  bg_image : "images/eu-fondovi2.png"
+  #title : "PAZIGRAD <br/>  SMART CITY"
+ # content : "Slogan koji ubija......."
+  #button:
+  #  enable : true
+  #  label : "Discover Our Project"
+  #  link : "project"
 
 ############################# About #################################
 about:
   enable : true
-  title : "About Us"
-  description : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id."
+  title : "O Nama"
+  description : "Tvrtka RI-ING NET je informatička tvrtka za računalne djelatnosti i usluge koja nastavlja 20 godišnji kontinuitet poslovanja na informatičkom tržištu RH, 
+  a svoje djelovanje temelji na projektima i rješenjima na „smart client“ aplikacijama, te mobilnim i web platformama, pri tome koristeći resurse vlastitog podatkovnog centra. 
+  Projekti PAZIGRAD i GRADSKO OKO čine temeljene noseće projekte tvrtke koji fokusiraju rješenja iz segmenta komunalnog sustava, te suvremenim tehnologijama direktno utječu na 
+  povećanje efikasnosti rada komunalnih službi gradova i općina."
+  content : "Dvosmjerna komunikacija sa građanstvom putem interneta, maila, SMS-a i aplikacija na pametnim telefonima, otvara široke mogućnosti povećanja transparentnosti lokalne uprave 
+  i dostupnosti njenih službi, a u cilju kvalitetnijeg djelovanja lokalne uprave u cjelini. Njima svaka sredina, od najmanjih općina do velikih gradova, koja osluškuje potrebe 
+  svojih građana i ulaže napore u smislu povećanja kvalitete života na svojem području, dobiva snažno oruđe primjereno modernom digitalnom dobu."
   image : "images/wrapper-img.png"
 
 
 ######################### Portfolio ###############################
 portfolio:
   enable : true
-  bg_image : "images/featue-bg.jpg"
+  bg_image : "images/proba.png"
   title : "WE BELIEVE IN GREAT IDEAS"
   content : "
   Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
@@ -90,22 +89,19 @@ funfacts:
 
   testimonial_slider:
     # testimonial item loop
-    - name : "Raymond Roy"
-      image : "images/clients/avater-1.jpg"
-      designation : "CEO-Themefisher"
-      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
-                ideas we feel that our site has unique elements that make us stand out from the crowd."
+    - name : "Daniel Pajalić"
+      image : "images/clients/pajkan.jpg"
+      designation : "Lead Software Engineer"
+      content : "Razvijo sam čudo od aplikac'ja..."
                 
     # testimonial item loop
-    - name : "Randi Renin"
-      image : "images/clients/avater-1.jpg"
-      designation : "CEO-Themefisher"
-      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
-                ideas we feel that our site has unique elements that make us stand out from the crowd."
+    - name : "Daniel Pajalić"
+      image : "images/clients/pajkan.jpg"
+      designation : "CEO RI-ING NET"
+      content : "...rekoh čudo!!!"
                 
     # testimonial item loop
-    - name : "Rose Rio"
-      image : "images/clients/avater-3.jpg"
-      designation : "CEO-Themefisher"
-      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
-                ideas we feel that our site has unique elements that make us stand out from the crowd."
+    - name : "Daniel Pajalić"
+      image : "images/clients/pajkan.jpg"
+      designation : "Lead Software Engineer"
+      content : "e...čudo!!!"
