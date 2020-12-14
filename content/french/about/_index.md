@@ -1,6 +1,6 @@
 ---
-title: "Malo o nama"
-description: "jer manje je više"
+title: "About Our Company"
+description: "this is meta description"
 draft: false
 bg_image: "images/featue-bg.jpg"
 ---

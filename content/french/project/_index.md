@@ -1,6 +1,6 @@
 ---
-title: "PAZIGRAD"
-description: "SMART CITY"
+title: "Our Project"
+description: "this is meta description"
 draft: false
-bg_image: "images/hugo_proj.png"
+bg_image: "images/featue-bg.jpg"
 ---
